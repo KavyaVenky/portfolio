@@ -4,20 +4,7 @@ header #header {
   color: var(--bs-secondary);
   font-family: 'Raleway', sans-serif;
 
-  .navbar-brand {
-    @include font-secondary;
-    font-style: italic;
-    color: inherit;
-    max-width: 57%;
-    @include media($bp-lg) {
-      max-width: 37%;
-    }
-
-    & img {
-      width: 100%;
-      height: auto;
-    }
-  }
+  
 
   #toggleMobileMenu {
     @include media($bp-lg) {
