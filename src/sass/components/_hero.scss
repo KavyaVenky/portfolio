@@ -19,9 +19,9 @@
       font-family: 'Roboto Mono';
       @include font-tertiary;
 
-      span {
-        color: var(--bs-accent);
-      }
+      // span {
+      //   color: var(--bs-accent);
+      // }
     }
 
     .social-links {
