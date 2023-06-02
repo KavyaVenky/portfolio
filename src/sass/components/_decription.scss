@@ -1,7 +1,8 @@
 #description {
     p {
-        font-family:'Courier New';
-        font-weight: bold;
+        font-family:'Crimson Text';
+        font-weight: italic;
+        font-size: larger;
     }
     .container > .row {
       @include media($bp-lg) {
