@@ -1,8 +1,9 @@
 #description {
     p {
-        font-family:'Crimson Text';
+        font-family:'Roboto Mono';
         font-weight: italic;
-        font-size: larger;
+        font-size: medium;
+        text-align: justify;
     }
     .container > .row {
       @include media($bp-lg) {
