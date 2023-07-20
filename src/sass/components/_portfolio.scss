@@ -1,5 +1,6 @@
 #portfolio {
   margin-bottom: 3rem;
+  margin-left: 4em;
 
   h1 {
     font-size: 2.0rem;
@@ -88,6 +89,7 @@
   background-color: transparent;
   width: 400px;
   height: 190px;
+  object-fit: contain;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   }
@@ -122,5 +124,12 @@
     background-color: white;
     color: black;
     transform: rotateY(180deg);
+  }
+  .card-content {
+    font-size: medium;
+    font-family:'Cormorant Garamond';  
+    //color: brown;
+    text-align: left;
+    margin: 1em;
   }
 }
