@@ -4,6 +4,7 @@
         font-weight: italic;
         font-size: medium;
         text-align: justify;
+        margin: 3em;
     }
     .container > .row {
       @include media($bp-lg) {
