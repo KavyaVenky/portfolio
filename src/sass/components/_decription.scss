@@ -1,24 +1,4 @@
-#description {
-    p {
-        font-family:'Roboto Mono';
-        font-weight: italic;
-        font-size: medium;
-        text-align: justify;
-        margin-right: 2em;
-    }
-    .container > .row {
-      @include media($bp-lg) {
-        height: min(800px, 95vh);
-      }
-    }
-  
-      h1 {
-        @include h1;
-      }
-    
-  
-    #skills_section {
-      @include media($bp-lg) {
+ 
         margin-top: -17%;
       }
       @include media($bp-xl) {
@@ -29,7 +9,7 @@
         @include h1;
       }
   
-      img {
+      img { 
         height: 2rem;
         @include transition;
   
