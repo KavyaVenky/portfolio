@@ -1,4 +1,11 @@
- 
+#description{
+  font-weight: italic;
+  font-size: medium;
+  text-align: justify;
+  margin-right: 2em;
+}
+.container > .row {
+@include media($bp-lg) {
         margin-top: -17%;
       }
       @include media($bp-xl) {
@@ -38,5 +45,5 @@
         align-items: center;
       }
     }
-  }
+  
   
